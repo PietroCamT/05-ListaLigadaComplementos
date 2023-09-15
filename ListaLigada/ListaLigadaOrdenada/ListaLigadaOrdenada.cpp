@@ -17,7 +17,7 @@ void exibirElementos();
 void inserirElemento();
 void excluirElemento();
 void buscarElemento();
-NO* posicaoElemento(int numero);
+//NO* posicaoElemento(int numero);
 //--------------------------
 
 
@@ -139,6 +139,26 @@ void inserirElemento()
 		aux->prox = novo;
 	}
 }
+
+//	if (!head || value < head->data) {
+//	newNode->next = head;
+//		head = newNode;
+//		return;
+//	}
+//
+//	Node* current = head;
+//	while (current->next && current->next->data < value) {
+//		current = current->next;
+//	}
+//
+//	if (!current->next || current->next->data != value) {
+//		newNode->next = current->next;
+//		current->next = newNode;
+//	}
+//	else {
+//		delete newNode;
+//	}
+//}
 
 void excluirElemento()
 {
